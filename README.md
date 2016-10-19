@@ -82,7 +82,7 @@ Android Studio 2.2
 
 ## More Info
 
-More info about Polymorphism -> https://www.tutorialspoint.com/java/java_polymorphism.htm
+More info about Abstract -> http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
 
 ## Authors
 
