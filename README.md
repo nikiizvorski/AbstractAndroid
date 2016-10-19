@@ -3,7 +3,8 @@ Example Project showing Abstract Class and Interface usage in Android
 
 In this project we are using Retrolambda and Butterknife and Java 1.8 Feautures
 
-Abstract class and interface both are used to achieve abstraction where we can declare the abstract methods. Abstract class and interface both can't be instantiated. 
+Abstract class and interface both are used to achieve abstraction where we can declare the abstract methods. Abstract class and interface both can't be instantiated. You can easely track the definition from the Activity classes and you will see how abstract 
+classes are used in Android to create templates for you.
 
 # What is the Diffrence between Abstract Class and Interface?
 
