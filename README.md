@@ -11,12 +11,12 @@ classes are used in Android to create templates for you.
 They are very close to each other but there are some rules that every one of them can use and do and you have to decide
 which one you need in which situation so for example:
 
-1: Abstract class can have abstract and non-abstract methods - (Interface can have only abstract methods)
-2: Abstract class doesn't support multiple inheritance - (Interface supports multiple inheritance)
-3: Abstract class can have final, non-final, static and non-static variables - (Interface has only static and final variables)
-4: Abstract class can have static methods, main method and constructor - (Interface can't have static methods, main method or constructor)
-5: Abstract class can provide the implementation of interface - (Interface can't provide the implementation of abstract class)
-6: The abstract keyword is used to declare abstract class - (The interface keyword is used to declare interface)
+1: Abstract class can have abstract and non-abstract methods - (Interface can have only abstract methods) </br>
+2: Abstract class doesn't support multiple inheritance - (Interface supports multiple inheritance) </br>
+3: Abstract class can have final, non-final, static and non-static variables - (Interface has only static and final variables) </br>
+4: Abstract class can have static methods, main method and constructor - (Interface can't have static methods, main method or constructor) </br>
+5: Abstract class can provide the implementation of interface - (Interface can't provide the implementation of abstract class) </br>
+6: The abstract keyword is used to declare abstract class - (The interface keyword is used to declare interface) </br>
 
 # Example Abstract Class
 
