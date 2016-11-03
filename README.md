@@ -18,6 +18,28 @@ which one you need in which situation so for example:
 5: Abstract class can provide the implementation of interface - (Interface can't provide the implementation of abstract class) </br>
 6: The abstract keyword is used to declare abstract class - (The interface keyword is used to declare interface) </br>
 
+# Where to use Abstract Class then Interface
+
+You want to share code among several closely related classes.
+You expect that classes that extend your abstract class have many common methods or fields, or require access modifiers other than public (such as protected and private).
+You want to declare non-static or non-final fields.
+
+1. Using abstract classes to define types that permit multiple implementations has one great advantage over using interfaces: It is far easier to evolve an abstract class than an interface.
+
+2. If, in a subsequent release, you want to add a new method to an abstract class, you can always add a concrete method containing a reasonable default implementation. All existing implementations of the abstract class will then provide the new method. This does not work for interfaces. 
+
+3. It is, generally speaking, impossible to add a method to a public interface without breaking all existing classes that implement the interface. 
+
+4. Classes that previously implemented the interface will be missing the new method and won’t compile anymore.
+
+5. Public interfaces, therefore, must be designed carefully. 
+
+# Where to use Interface
+
+You expect that unrelated classes would implement your interface. For example,many unrelated objects can implement Serializable interface.
+You want to specify the behaviour of a particular data type, but not concerned about who implements its behaviour.
+You want to take advantage of multiple inheritance of type.
+
 # Example Abstract Class
 
 You can look on an Abstract class as a template for future usage.
